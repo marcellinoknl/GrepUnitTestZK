@@ -1,0 +1,156 @@
+2023-08-30 14:55:31,701 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Node does not exist: /blahblahblah
+2023-08-30 14:55:32,034 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:32,290 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:32,520 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /aa1
+Created /aa2
+Created /aa3
+Created /test1
+Created /zk1
+2023-08-30 14:55:32,757 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+2023-08-30 14:55:32,924 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node0000000000
+Created /node
+Created /node0000000002
+2023-08-30 14:55:33,102 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:33,257 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:33,436 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:33,596 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:33,733 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:33,876 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Connecting to localhost:22008
+2023-08-30 14:55:34,039 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+
+WATCHER::
+
+WatchedEvent state:Closed type:None path:null zxid: -1
+2023-08-30 14:55:37,470 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:37,620 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:37,870 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:38,034 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /l0000000000
+2023-08-30 14:55:38,241 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+printwatches is on
+0 - printwatches
+1 - history
+2023-08-30 14:55:38,524 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+ZooKeeper -server host:port -client-configuration properties-file cmd args
+	addWatch [-m mode] path # optional mode is one of [PERSISTENT, PERSISTENT_RECURSIVE] - default is PERSISTENT_RECURSIVE
+	addauth scheme auth
+	close 
+	config [-c] [-w] [-s]
+	connect host:port
+	create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+	delete [-v version] path
+	deleteall path [-b batch size]
+	delquota [-n|-b|-N|-B] path
+	get [-s] [-w] path
+	getAcl [-s] path
+	getAllChildrenNumber path
+	getEphemerals path
+	history 
+	listquota path
+	ls [-s] [-w] [-R] path
+	printwatches on|off
+	quit 
+	reconfig [-s] [-v version] [[-file path] | [-members serverID=host:port1:port2;port3[,...]*]] | [-add serverId=host:port1:port2;port3[,...]]* [-remove serverId[,...]*]
+	redo cmdno
+	removewatches path [-c|-d|-a] [-l]
+	set [-s] [-v version] path data
+	setAcl [-s] [-v version] [-R] path acl
+	setquota -n|-b|-N|-B val path
+	stat [-w] path
+	sync path
+	version 
+	whoami 
+Command not found: Command not found cret
+ZooKeeper -server host:port -client-configuration properties-file cmd args
+	addWatch [-m mode] path # optional mode is one of [PERSISTENT, PERSISTENT_RECURSIVE] - default is PERSISTENT_RECURSIVE
+	addauth scheme auth
+	close 
+	config [-c] [-w] [-s]
+	connect host:port
+	create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+	delete [-v version] path
+	deleteall path [-b batch size]
+	delquota [-n|-b|-N|-B] path
+	get [-s] [-w] path
+	getAcl [-s] path
+	getAllChildrenNumber path
+	getEphemerals path
+	history 
+	listquota path
+	ls [-s] [-w] [-R] path
+	printwatches on|off
+	quit 
+	reconfig [-s] [-v version] [[-file path] | [-members serverID=host:port1:port2;port3[,...]*]] | [-add serverId=host:port1:port2;port3[,...]]* [-remove serverId[,...]*]
+	redo cmdno
+	removewatches path [-c|-d|-a] [-l]
+	set [-s] [-v version] path data
+	setAcl [-s] [-v version] [-R] path acl
+	setquota -n|-b|-N|-B val path
+	stat [-w] path
+	sync path
+	version 
+	whoami 
+2023-08-30 14:55:38,765 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node2
+2023-08-30 14:55:39,129 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node10000000000
+'delete path [version]' has been deprecated. Please use 'delete [-v version] path' instead.
+Node does not exist: /node1
+2023-08-30 14:55:39,423 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+2023-08-30 14:55:39,739 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:40,156 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:40,342 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:40,978 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:49,868 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:50,527 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:50,841 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Unknown perm type: g
+Unknown perm type: g
+Unknown perm type: g
+Unknown perm type: s
+KeeperErrorCode = InvalidACL for /node
+Acl is not valid : /node
+2023-08-30 14:55:51,123 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:51,507 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node3
+cZxid = 0x2
+ctime = Wed Aug 30 14:55:51 WIB 2023
+mZxid = 0x2
+mtime = Wed Aug 30 14:55:51 WIB 2023
+pZxid = 0x2
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x100009406a70000
+dataLength = 4
+numChildren = 0
+2023-08-30 14:55:52,084 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node2
+Node does not exist: /node2
+2023-08-30 14:55:52,616 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /b
+Created /b/c
+2023-08-30 14:55:53,065 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /a
+Created /a/b
+Created /a/c
+Created /a/b/d
+Created /a/c/e
+Created /a/f
+2023-08-30 14:55:53,436 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /node4
+2023-08-30 14:55:53,901 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+2023-08-30 14:55:54,259 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Created /b
+Created /b/c
+2023-08-30 14:55:54,726 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+create [-s] [-e] [-c] [-t ttl] path [data] [acl]
+2023-08-30 14:55:55,106 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:03,132 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

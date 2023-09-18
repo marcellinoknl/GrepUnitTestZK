@@ -1,0 +1,19 @@
+2023-08-30 14:58:08,918 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:58:09,088 [myid:] - ERROR [NIOWorkerThread-4:o.a.z.s.a.KeyAuthenticationProvider@69] - getData failed
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode
+	at org.apache.zookeeper.server.DataTree.getData(DataTree.java:686)
+	at org.apache.zookeeper.server.ZKDatabase.getData(ZKDatabase.java:515)
+	at org.apache.zookeeper.server.auth.KeyAuthenticationProvider.getKey(KeyAuthenticationProvider.java:67)
+	at org.apache.zookeeper.server.auth.KeyAuthenticationProvider.handleAuthentication(KeyAuthenticationProvider.java:94)
+	at org.apache.zookeeper.server.ZooKeeperServer.processPacket(ZooKeeperServer.java:1717)
+	at org.apache.zookeeper.server.NIOServerCnxn.readRequest(NIOServerCnxn.java:399)
+	at org.apache.zookeeper.server.NIOServerCnxn.readPayload(NIOServerCnxn.java:191)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:356)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:58:10,505 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:58:10,657 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:58:10,829 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

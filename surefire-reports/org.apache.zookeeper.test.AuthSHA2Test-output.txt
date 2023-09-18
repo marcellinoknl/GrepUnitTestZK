@@ -1,0 +1,13 @@
+2023-08-30 14:56:49,938 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:50,205 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:50,398 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:50,575 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:50,700 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:51,046 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:51,204 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:51,312 [myid:] - ERROR [ProcessThread(sid:0 cport:30074)::o.a.z.s.PrepRequestProcessor@1012] - Missing AuthenticationProvider for super
+2023-08-30 14:56:51,625 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:52,330 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:52,572 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:52,754 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:53,011 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

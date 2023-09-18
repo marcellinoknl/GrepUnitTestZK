@@ -1,0 +1,371 @@
+2023-08-30 14:51:34,469 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16616:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:34,470 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16613:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:34,472 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16613:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:34,472 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16616:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:34,483 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16610:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:34,484 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16610:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:34,864 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16615:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:34,864 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16615:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:34,864 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16615:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:34,864 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16615:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:35,356 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:35,611 [myid:] - ERROR [LearnerHandler-/127.0.0.1:54808:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:35,618 [myid:] - ERROR [LearnerHandler-/127.0.0.1:54792:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:35,720 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16621:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,721 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16621:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,726 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16619:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,726 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16619:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,737 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16629:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,738 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16629:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,743 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16631:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,744 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16631:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,751 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16624:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,752 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16624:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,758 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16626:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:35,765 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16626:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:35,813 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,815 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,816 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,816 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,818 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,818 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,836 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:35,848 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:36,085 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16628:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:36,086 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16628:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:36,093 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16630:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:36,093 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16630:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:36,106 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16628:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:36,107 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16628:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:36,111 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16630:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:36,113 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16630:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:36,127 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:16628:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:36,188 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:16630:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:36,555 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:36,920 [myid:] - ERROR [LearnerHandler-/127.0.0.1:38406:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:36,931 [myid:] - ERROR [LearnerHandler-/127.0.0.1:41448:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:37,036 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16635:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:37,036 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16635:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:37,058 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16638:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:37,060 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16638:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:37,066 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,068 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,068 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,069 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:43818, closing server connection
+2023-08-30 14:51:37,077 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,082 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,082 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,083 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36828, closing server connection
+2023-08-30 14:51:37,279 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,281 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,284 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:43826, closing server connection
+2023-08-30 14:51:37,287 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,291 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,291 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,291 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36832, closing server connection
+2023-08-30 14:51:37,294 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,681 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,683 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,684 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:43830, closing server connection
+2023-08-30 14:51:37,686 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,689 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:37,697 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:37,702 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36840, closing server connection
+2023-08-30 14:51:37,702 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:38,481 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:38,483 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:38,484 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:43844, closing server connection
+2023-08-30 14:51:38,484 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:38,489 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:38,491 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:38,492 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36856, closing server connection
+2023-08-30 14:51:38,492 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:40,078 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:40,080 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:40,080 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:43850, closing server connection
+2023-08-30 14:51:40,083 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:40,089 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:40,090 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:40,091 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36862, closing server connection
+2023-08-30 14:51:40,091 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:43,278 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:43,279 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:43,279 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:16635, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16635
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:43,279 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:35222, closing server connection
+2023-08-30 14:51:43,289 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:43,290 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: DIGEST-MD5: digest response format violation. Mismatched response.
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.validateClientResponse(DigestMD5Server.java:625)
+	at java.security.sasl/com.sun.security.sasl.digest.DigestMD5Server.evaluateResponse(DigestMD5Server.java:247)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:43,291 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:16638, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:16638
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:120)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:43,291 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:45968, closing server connection
+2023-08-30 14:51:47,373 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16642:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:47,374 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16642:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:47,379 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16645:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:47,380 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16645:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:47,412 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16648:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:47,413 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:16648:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:47,433 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,434 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,434 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,442 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,442 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,451 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,666 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16647:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:47,667 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16647:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:47,674 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16647:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:47,674 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:16647:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:47,675 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:16647:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,678 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:16647:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:47,885 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:48,055 [myid:] - ERROR [LearnerHandler-/127.0.0.1:53630:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:48,070 [myid:] - ERROR [LearnerHandler-/127.0.0.1:53622:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

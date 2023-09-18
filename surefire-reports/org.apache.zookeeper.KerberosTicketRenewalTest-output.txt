@@ -1,0 +1,58 @@
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:55:39,383 [myid:] - ERROR [Thread-1:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 500
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:55:39,497 [myid:] - ERROR [Thread-2:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 500
+2023-08-30 14:55:43,126 [myid:] - ERROR [Thread-2:o.a.z.Login$1@250] - [wasabi] Retry Loop 03 is called. MaxRetry : 0
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:55:43,232 [myid:] - ERROR [Thread-3:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 500
+2023-08-30 14:55:47,071 [myid:] - ERROR [Thread-3:o.a.z.Login$1@250] - [wasabi] Retry Loop 03 is called. MaxRetry : 0
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:55:51,059 [myid:] - ERROR [Thread-3:o.a.z.Login$1@250] - [wasabi] Retry Loop 03 is called. MaxRetry : 0
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+		[Krb5LoginModule] authentication failed 
+Cannot locate KDC
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4ae41691-ab9c-4364-a881-d88a2190b44c refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject

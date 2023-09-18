@@ -1,0 +1,61 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2023-09-03 22:28:05,656 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:05,664 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:07,291 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37333:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:07,292 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37333:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:07,517 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:07,838 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:42075)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:08,064 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:08,541 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:08,541 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:08,645 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:08,650 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:38129:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:08,650 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:38129:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:08,876 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:33177)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:08,964 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:10,557 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:10,557 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:10,576 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:44771:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:10,577 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:44771:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:10,580 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,788 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:36745)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,859 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:11,021 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:11,023 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:11,062 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:40841:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:11,063 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:40841:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:11,064 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:11,271 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:34253)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:11,335 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:13,101 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:13,102 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:13,140 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:38125:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:13,141 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:38125:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:13,143 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:13,351 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:34387)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:13,404 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:13,770 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:13,771 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:13,811 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:36515:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:13,815 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:13,813 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:36515:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:14,021 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:35273)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:14,073 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:15,693 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:15,694 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:15,714 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:44833:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:15,714 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:44833:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:15,715 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:15,921 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:45169)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:15,997 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:16,165 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:16,166 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:16,192 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:35151:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:16,193 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:35151:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:16,194 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:16,402 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:36445)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:16,468 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

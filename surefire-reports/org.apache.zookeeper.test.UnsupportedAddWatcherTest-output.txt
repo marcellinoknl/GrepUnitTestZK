@@ -1,0 +1,9 @@
+2023-08-30 14:59:56,713 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:59:56,841 [myid:] - ERROR [SyncThread:0:o.a.z.s.FinalRequestProcessor@573] - Failed to process sessionid:0x1000097c34b0000 type:addWatch cxid:0x1 zxid:0xfffffffffffffffe txntype:unknown reqpath:/foo
+java.lang.UnsupportedOperationException: null
+	at org.apache.zookeeper.server.watch.IWatchManager.addWatch(IWatchManager.java:51)
+	at org.apache.zookeeper.server.DataTree.addWatch(DataTree.java:677)
+	at org.apache.zookeeper.server.ZKDatabase.addWatch(ZKDatabase.java:544)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:413)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:208)
+2023-08-30 14:59:56,854 [myid:] - ERROR [SyncThread:0:o.a.z.s.FinalRequestProcessor@575] - Dumping request buffer for request type addWatch: 0x000000042f666f6f00000001

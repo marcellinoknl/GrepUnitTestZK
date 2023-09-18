@@ -1,0 +1,912 @@
+2023-08-30 14:51:40,658 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-0" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:41,377 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-1" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:41,672 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-2" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:42,289 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-3" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:42,671 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-4" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:42,946 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-5" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,096 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-6" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,211 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-7" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,267 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-8" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,466 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-9" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,707 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-10" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:43,984 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-11" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:44,227 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-12" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:44,459 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-13" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:44,682 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-14" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:44,886 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-15" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:45,080 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,081 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,155 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-16" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:45,267 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,268 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,335 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-17" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:45,485 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,485 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,527 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-18" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:45,623 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,623 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,696 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-19" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:45,857 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,858 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:45,948 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-20" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:46,078 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,079 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,131 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-21" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:46,241 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,241 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,323 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-22" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:46,481 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,481 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:46,560 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-23" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:46,686 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-24" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:46,900 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-25" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:47,137 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-26" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:47,295 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-27" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:47,545 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-28" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:47,773 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-29" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:47,980 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-30" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:48,198 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-31" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:48,414 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:48,415 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-32" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:48,611 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:48,612 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-33" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:48,876 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:48,877 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-34" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:49,149 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:49,151 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-35" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:49,371 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:49,372 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-36" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:49,588 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:49,589 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-37" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:49,761 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:49,765 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-38" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:50,002 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:50,003 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-39" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:50,218 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:50,219 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-40" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:50,428 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:50,428 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-41" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:50,676 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:50,676 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-42" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:50,919 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:50,920 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-43" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:51,142 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:51,142 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-44" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:51,369 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:51,369 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-45" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:51,604 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:51,606 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-46" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:51,841 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:51,842 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-47" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:52,073 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-48" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:52,602 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-49" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:53,109 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-50" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:53,615 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-51" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:54,124 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-52" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:54,639 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-53" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:55,147 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-54" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:55,655 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-55" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:56,165 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,165 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,251 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-56" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:56,385 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,386 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,449 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-57" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:56,577 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,577 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,702 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-58" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:56,840 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,840 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:56,954 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-59" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:57,094 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,095 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,170 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-60" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:57,313 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,314 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,409 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-61" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:57,539 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,540 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,614 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-62" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:57,773 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,774 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+2023-08-30 14:51:57,850 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@214] - [wasabi] Retry Loop 11 is called. MaxRetry :5
+Exception in thread "Thread-63" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:57,970 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-64" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,039 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-65" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,084 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-66" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,140 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-67" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,188 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-68" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,233 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-69" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,300 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-70" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)
+2023-08-30 14:51:58,371 [myid:] - ERROR [main:o.a.z.s.q.UnifiedServerSocketTest@246] - [wasabi] Retry Loop 12 is called. MaxRetry :5
+Exception in thread "Thread-71" java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:188)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:689)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:762)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocket.accept(UnifiedServerSocket.java:139)
+	at org.apache.zookeeper.server.quorum.UnifiedServerSocketTest$UnifiedServerThread.run(UnifiedServerSocketTest.java:151)

@@ -1,0 +1,43 @@
+2023-08-30 14:54:12,449 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+javax.net.ssl|DEBUG|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.573 WIB|SSLCipher.java:466|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+javax.net.ssl|ALL|32|epollEventLoopGroup-4-2|2023-08-30 14:54:12.798 WIB|X509Authentication.java:304|No X.509 cert selected for EC
+javax.net.ssl|ALL|32|epollEventLoopGroup-4-2|2023-08-30 14:54:12.798 WIB|X509Authentication.java:304|No X.509 cert selected for EdDSA
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.891 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.892 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.892 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.892 WIB|X509Authentication.java:249|No X.509 cert selected for EdDSA
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:12.893 WIB|X509Authentication.java:249|No X.509 cert selected for EdDSA
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.016 WIB|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.017 WIB|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.017 WIB|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.017 WIB|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.018 WIB|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:13.018 WIB|SSLSocketImpl.java:1781|close the SSL connection (passive)
+javax.net.ssl|ALL|32|epollEventLoopGroup-4-2|2023-08-30 14:54:28.048 WIB|SSLEngineImpl.java:825|Closing outbound of SSLEngine
+javax.net.ssl|WARNING|32|epollEventLoopGroup-4-2|2023-08-30 14:54:28.050 WIB|SSLEngineOutputRecord.java:182|outbound has closed, ignore outbound application data
+javax.net.ssl|ALL|22|epollEventLoopGroup-5-1|2023-08-30 14:54:28.052 WIB|SSLEngineImpl.java:825|Closing outbound of SSLEngine
+javax.net.ssl|WARNING|22|epollEventLoopGroup-5-1|2023-08-30 14:54:28.052 WIB|SSLEngineOutputRecord.java:182|outbound has closed, ignore outbound application data
+2023-08-30 14:54:28,253 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:28.650 WIB|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:28.650 WIB|SSLSocketImpl.java:1781|close the SSL connection (passive)
+2023-08-30 14:54:30,102 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+javax.net.ssl|ALL|D8|epollEventLoopGroup-17-2|2023-08-30 14:54:30.151 WIB|X509Authentication.java:304|No X.509 cert selected for EC
+javax.net.ssl|ALL|D8|epollEventLoopGroup-17-2|2023-08-30 14:54:30.151 WIB|X509Authentication.java:304|No X.509 cert selected for EdDSA
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:30.174 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:30.174 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:30.174 WIB|X509Authentication.java:249|No X.509 cert selected for EC
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:30.175 WIB|X509Authentication.java:249|No X.509 cert selected for EdDSA
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:30.175 WIB|X509Authentication.java:249|No X.509 cert selected for EdDSA
+javax.net.ssl|ALL|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:45.235 WIB|SSLEngineImpl.java:825|Closing outbound of SSLEngine
+javax.net.ssl|ALL|D8|epollEventLoopGroup-17-2|2023-08-30 14:54:45.236 WIB|SSLEngineImpl.java:825|Closing outbound of SSLEngine
+javax.net.ssl|WARNING|C8|epollEventLoopGroup-18-1|2023-08-30 14:54:45.236 WIB|SSLEngineOutputRecord.java:182|outbound has closed, ignore outbound application data
+javax.net.ssl|WARNING|D8|epollEventLoopGroup-17-2|2023-08-30 14:54:45.236 WIB|SSLEngineOutputRecord.java:182|outbound has closed, ignore outbound application data
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:45.259 WIB|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|Finalizer|2023-08-30 14:54:45.260 WIB|SSLSocketImpl.java:1781|close the SSL connection (passive)
+2023-08-30 14:54:45,303 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:54:49,454 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:54:57,071 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:54:58,260 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:54:58,651 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:08,484 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:08,503 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

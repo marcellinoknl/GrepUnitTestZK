@@ -1,0 +1,757 @@
+2023-08-30 14:51:54,937 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:54,961 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:54,969 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:55,132 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,133 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,146 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11226:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,146 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11231:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,147 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11226:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,147 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11231:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,153 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11229:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,154 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11229:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,163 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11234:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,164 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11234:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,168 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11236:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:55,169 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11236:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:55,607 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11233:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:55,608 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11233:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:55,608 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11235:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:55,609 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11233:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:55,609 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11235:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:55,609 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11233:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:55,609 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11235:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:55,609 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11235:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:58,311 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:59,024 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:59,645 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:00,285 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:00,329 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11234:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,330 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11234:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,330 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11236:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,331 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11236:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,355 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11231:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,356 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11231:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,358 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11229:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,358 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11229:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,365 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,365 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,364 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11238:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,367 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11238:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,368 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11226:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:00,376 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11226:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:00,390 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:01,028 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:01,653 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:02,279 [myid:] - ERROR [LearnerHandler-/127.0.0.1:39872:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:02,294 [myid:] - ERROR [LearnerHandler-/127.0.0.1:39864:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:02,337 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:02,338 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:02,342 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:02,628 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11243:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,629 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11241:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,630 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11241:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:02,630 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11243:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11243
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:02,635 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11248:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,637 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11248:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11248
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:02,637 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11246:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,638 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11246:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:02,639 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11253:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,640 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11251:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:02,641 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11251:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:02,641 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11253:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11253
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:02,856 [myid:] - ERROR [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:11249)(secure=disabled):o.a.z.s.q.Leader@324] - Couldn't bind to invalid.hostname.unreachable.com/<unresolved>:11252
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.Leader.createServerSocket(Leader.java:321)
+	at org.apache.zookeeper.server.quorum.Leader.lambda$new$0(Leader.java:300)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3573)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.apache.zookeeper.server.quorum.Leader.<init>(Leader.java:303)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.makeLeader(QuorumPeer.java:1343)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:1568)
+2023-08-30 14:52:02,859 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11250:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:02,859 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11250:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:02,860 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11250:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:02,860 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11250:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:03,633 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11243:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11243
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:03,637 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11248:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11248
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:03,642 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11253:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11253
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:04,634 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11243:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11243
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:04,638 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11248:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11248
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:04,644 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11253:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11253
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:05,636 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11243:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11243 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:05,640 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11248:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11248 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:05,645 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11253:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11253 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:05,662 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:06,279 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:06,887 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:07,496 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56254:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:07,504 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56252:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:07,532 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:07,536 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:07,540 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:07,557 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11258:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,558 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11258:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11258
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:07,562 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11256:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,564 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11256:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:07,580 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11261:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,580 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11263:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,581 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11261:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:07,583 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11263:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11263
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:07,586 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11266:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,589 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11266:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:07,592 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11268:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:07,592 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11268:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11268
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:07,811 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11265:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:07,811 [myid:] - ERROR [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:11264)(secure=disabled):o.a.z.s.q.Leader@324] - Couldn't bind to invalid.hostname.unreachable.com/<unresolved>:11267
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.Leader.createServerSocket(Leader.java:321)
+	at org.apache.zookeeper.server.quorum.Leader.lambda$new$0(Leader.java:300)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3573)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.apache.zookeeper.server.quorum.Leader.<init>(Leader.java:303)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.makeLeader(QuorumPeer.java:1343)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:1568)
+2023-08-30 14:52:07,811 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11265:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:07,813 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11265:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:07,814 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11265:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:08,560 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11258:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11258
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:08,584 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11263:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11263
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:08,596 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11268:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11268
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:09,560 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11258:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11258
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:09,585 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11263:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11263
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:09,596 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11268:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1100] - Exception while listening to address invalid.hostname.unreachable.com/<unresolved>:11268
+java.net.SocketException: Unresolved address
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:380)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:342)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.createNewServerSocket(QuorumCnxManager.java:1142)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.acceptConnections(QuorumCnxManager.java:1070)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler.run(QuorumCnxManager.java:1039)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:52:10,561 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11258:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11258 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:10,585 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11263:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11263 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:10,597 [myid:] - ERROR [ListenerHandler-invalid.hostname.unreachable.com/<unresolved>:11268:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1119] - Leaving listener thread for address invalid.hostname.unreachable.com:11268 after 3 errors. Use zookeeper.electionPortBindRetry property to increase retry count.
+2023-08-30 14:52:10,876 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:11,491 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:12,123 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:12,731 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:49698:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:12,734 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:49714:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:12,747 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:12,749 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:12,753 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:12,767 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11276:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,768 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11276:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:12,769 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11278:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,769 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11278:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:12,779 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11271:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,781 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11271:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:12,793 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11273:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,793 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11273:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:12,800 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11281:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,802 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11283:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:12,802 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11283:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:12,802 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11281:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:13,039 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11280:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:13,039 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11282:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:13,039 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11280:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:13,039 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11282:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:13,060 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11280:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:13,060 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11280:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:13,060 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11282:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:13,061 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11282:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:16,071 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:16,721 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:17,359 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:17,971 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:54148:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:17,975 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:54160:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:18,020 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:18,038 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:18,073 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11291:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,073 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11291:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,089 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11293:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,089 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11293:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,090 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11288:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,091 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11288:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,093 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:18,091 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11286:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,096 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11286:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,123 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11296:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,124 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11296:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,134 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11298:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:18,134 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11298:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:18,351 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11295:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:18,361 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11295:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:18,359 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11297:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:18,363 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11297:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:18,368 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11295:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:18,368 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11295:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:18,392 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11297:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:18,393 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11297:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:21,430 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:22,070 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:22,687 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:23,301 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:23,338 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11296:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:23,338 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11302:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:23,339 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11296:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:23,339 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11302:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:23,346 [myid:] - ERROR [LearnerHandler-/127.0.0.1:44796:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:23,346 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11300:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:23,347 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11300:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:23,350 [myid:] - ERROR [LearnerHandler-/127.0.0.1:44784:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:23,354 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11285:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:23,354 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11285:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:23,354 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11286:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:23,354 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11286:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:25,401 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:26,015 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:26,503 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11285:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:26,503 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11285:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:26,629 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:27,241 [myid:] - ERROR [LearnerHandler-/127.0.0.1:57592:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:27,243 [myid:] - ERROR [LearnerHandler-/127.0.0.1:57590:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:27,264 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:27,268 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:27,271 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:27,282 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11305:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,283 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11305:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,282 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11307:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,283 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11307:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,286 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11310:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,286 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11312:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11310:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11312:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11315:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11317:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11315:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,287 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11317:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:27,497 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11314:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:27,498 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11314:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:27,498 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11316:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:27,498 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11316:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:27,501 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11314:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:27,501 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11316:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:27,501 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11314:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:27,501 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11316:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:30,616 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:31,238 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:31,854 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:32,462 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42756:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:32,469 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42764:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:32,492 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:32,497 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:32,505 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:32,521 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11327:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,521 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11325:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,521 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11325:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,522 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11327:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,524 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11330:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,524 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11332:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,525 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11332:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,525 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11330:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,550 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11320:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,551 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11320:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,556 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11322:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:32,556 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11322:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:32,787 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11329:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:32,787 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11329:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:32,787 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11329:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:32,790 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11329:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:32,798 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11331:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:32,798 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11331:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:32,798 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11331:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:32,799 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11331:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:35,840 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:36,453 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:37,082 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:37,691 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:37,735 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11330:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:37,736 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11330:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:37,735 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11336:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:37,744 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11336:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:37,745 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:55754:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:37,751 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:55766:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:37,751 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11334:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:37,752 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11334:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:37,752 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11319:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:37,752 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11319:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:37,762 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11320:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:37,762 [myid:] - ERROR [ListenerHandler-/[0:0:0:0:0:0:0:1]:11320:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:39,463 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:40,084 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:40,698 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:40,855 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11319:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:40,855 [myid:] - ERROR [LeaderConnector-/[0:0:0:0:0:0:0:1]:11319:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:40,860 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:58552:o.a.z.s.q.LearnerHandler@933] - Unhandled scenario for peer sid: 2 fall back to use snapshot
+2023-08-30 14:52:43,313 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:58552:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:43,314 [myid:] - ERROR [LearnerHandler-/[0:0:0:0:0:0:0:1]:58542:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:43,341 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:43,344 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:43,348 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:43,360 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11339:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:43,360 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11339:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:43,365 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11342:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:43,366 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11342:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:43,371 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11345:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:43,372 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11345:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:43,586 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11344:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:43,586 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11344:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:43,589 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11344:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:43,589 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11344:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:46,679 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:47,292 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:47,900 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:48,509 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:48,522 [myid:] - ERROR [LearnerHandler-/127.0.0.1:37148:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:48,524 [myid:] - ERROR [LearnerHandler-/127.0.0.1:37156:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:48,534 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:48,538 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:48,549 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:48,550 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11359:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,551 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11359:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,551 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11361:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,552 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11361:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,553 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11357:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,554 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11357:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,557 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11350:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,557 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11352:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,557 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11350:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,558 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11352:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,558 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11354:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,559 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11354:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,567 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11364:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,568 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11364:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,569 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11366:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,569 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11366:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,570 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11368:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:48,571 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11368:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:48,782 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11365:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,782 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11363:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,783 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11363:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,782 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11365:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,783 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11367:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,783 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11367:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,784 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11365:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,784 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11363:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,784 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11365:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,785 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11363:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,785 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11367:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:48,785 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11367:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:48,787 [myid:] - ERROR [LearnerHandler-/127.0.0.1:44928:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:473)
+2023-08-30 14:52:51,869 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:52,482 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:53,089 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:53,705 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:53,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11364:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:53,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11366:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:53,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11366:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:53,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11364:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:53,738 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11350:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:53,739 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11350:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:53,739 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11357:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:53,739 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11352:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:52:53,740 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11357:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:53,739 [myid:] - ERROR [LearnerHandler-/127.0.0.1:52562:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:53,740 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11352:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:52:53,740 [myid:] - ERROR [LearnerHandler-/127.0.0.1:48366:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:53,743 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11356:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:53,743 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11356:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:55,453 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:56,066 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:56,673 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:52:56,820 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11356:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:52:56,820 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11356:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:52:56,828 [myid:] - ERROR [LearnerHandler-/127.0.0.1:60000:o.a.z.s.q.LearnerHandler@933] - Unhandled scenario for peer sid: 2 fall back to use snapshot
+2023-08-30 14:52:59,284 [myid:] - ERROR [LearnerHandler-/127.0.0.1:59988:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:52:59,288 [myid:] - ERROR [LearnerHandler-/127.0.0.1:60000:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

@@ -1,0 +1,234 @@
+Debug is  true storeKey true useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4f527b50-b07f-4186-86ef-093761f1688e refreshKrb5Config is true principal is zkquorum/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/test1789036778476879248.junit.dir/1693382250085/krb5.conf
+Loading krb5 profile at /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/test1789036778476879248.junit.dir/1693382250085/krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+>>> KdcAccessibility: reset
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkquorum
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 73; type: 16
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkquorum
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 65; type: 17
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkclient
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 73; type: 16
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkclient
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 65; type: 17
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:43779, timeout=30000, number of retries =3, #bytes=147
+>>> KDCCommunication: kdc=localhost TCP:43779, timeout=30000,Attempt =1, #bytes=147
+>>>DEBUG: TCPClient reading 162 bytes
+>>> KrbKdcReq send: #bytes read=162
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+>>> KdcAccessibility: remove localhost:43779
+>>> KDCRep: init() encoding tag is 126 req type is 11
+>>>KRBError:
+	 sTime is Wed Aug 30 14:57:30 WIB 2023 1693382250000
+	 suSec is 100
+	 error code is 25
+	 error Message is Additional pre-authentication required
+	 sname is zkquorum/localhost@EXAMPLE.COM
+	 eData provided.
+	 msgType is 30
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+KRBError received: Additional pre-authentication required
+KrbAsReqBuilder: PREAUTH FAILED/REQ, re-send AS-REQ
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:43779, timeout=30000, number of retries =3, #bytes=234
+>>> KDCCommunication: kdc=localhost TCP:43779, timeout=30000,Attempt =1, #bytes=234
+>>>DEBUG: TCPClient reading 543 bytes
+>>> KrbKdcReq send: #bytes read=543
+>>> KdcAccessibility: remove localhost:43779
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsRep cons in KrbAsReq.getReply zkquorum/localhost
+principal is zkquorum/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:57:31,094 [myid:] - ERROR [Thread-1:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+Found KeyTab /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4f527b50-b07f-4186-86ef-093761f1688e for zkquorum/localhost@EXAMPLE.COM
+Found ticket for zkquorum/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Aug 31 14:57:31 WIB 2023
+2023-08-30 14:57:33,635 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4f527b50-b07f-4186-86ef-093761f1688e refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/test1789036778476879248.junit.dir/1693382250085/krb5.conf
+Loading krb5 profile at /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/test1789036778476879248.junit.dir/1693382250085/krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkclient/localhost@EXAMPLE.COM
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkclient/localhost@EXAMPLE.COM
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:43779, timeout=30000, number of retries =3, #bytes=147
+>>> KDCCommunication: kdc=localhost TCP:43779, timeout=30000,Attempt =1, #bytes=147
+>>>DEBUG: TCPClient reading 162 bytes
+>>> KrbKdcReq send: #bytes read=162
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+>>> KdcAccessibility: remove localhost:43779
+>>> KDCRep: init() encoding tag is 126 req type is 11
+>>>KRBError:
+	 sTime is Wed Aug 30 14:57:33 WIB 2023 1693382253000
+	 suSec is 100
+	 error code is 25
+	 error Message is Additional pre-authentication required
+	 sname is zkclient/localhost@EXAMPLE.COM
+	 eData provided.
+	 msgType is 30
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+KRBError received: Additional pre-authentication required
+KrbAsReqBuilder: PREAUTH FAILED/REQ, re-send AS-REQ
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkclient/localhost@EXAMPLE.COM
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkclient/localhost@EXAMPLE.COM
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 20 19.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:43779, timeout=30000, number of retries =3, #bytes=234
+>>> KDCCommunication: kdc=localhost TCP:43779, timeout=30000,Attempt =1, #bytes=234
+>>>DEBUG: TCPClient reading 543 bytes
+>>> KrbKdcReq send: #bytes read=543
+>>> KdcAccessibility: remove localhost:43779
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkclient/localhost@EXAMPLE.COM
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsRep cons in KrbAsReq.getReply zkclient/localhost
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2023-08-30 14:57:33,698 [myid:] - ERROR [Thread-2:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+Found KeyTab /home/asus/Documents/zookeeper/zookeeper-server/target/surefire/4f527b50-b07f-4186-86ef-093761f1688e for zkquorum/localhost@EXAMPLE.COM
+Found ticket for zkquorum/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Aug 31 14:57:31 WIB 2023
+Found ticket for zkclient/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Aug 31 14:57:33 WIB 2023
+Entered Krb5Context.initSecContext with state=STATE_NEW
+Found ticket for zkclient/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Aug 31 14:57:33 WIB 2023
+Service ticket not found in the subject
+>>> Credentials serviceCredsSingle: same realm
+Using builtin default etypes for default_tgs_enctypes
+default etypes for default_tgs_enctypes: 18 17 20 19.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> CksumType: sun.security.krb5.internal.crypto.HmacSha1Aes128CksumType
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbKdcReq send: kdc=localhost TCP:43779, timeout=30000, number of retries =3, #bytes=584
+>>> KDCCommunication: kdc=localhost TCP:43779, timeout=30000,Attempt =1, #bytes=584
+>>>DEBUG: TCPClient reading 537 bytes
+>>> KrbKdcReq send: #bytes read=537
+>>> KdcAccessibility: remove localhost:43779
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> TGS credentials serviceCredsSingle:
+>>> DEBUG: ----Credentials----
+	client: zkclient/localhost@EXAMPLE.COM
+	server: zkquorum/localhost@EXAMPLE.COM
+	ticket: sname: zkquorum/localhost@EXAMPLE.COM
+	endTime: 1693468654000
+        ----Credentials end----
+>>> KrbApReq: APOptions are 00000000 00000000 00000000 00000000
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+Krb5Context setting mySeqNumber to: 53899434
+Krb5Context setting peerSeqNumber to: 53899434
+Created InitSecContextToken:
+0000: 01 00 6E 82 01 E7 30 82   01 E3 A0 03 02 01 05 A1  ..n...0.........
+0010: 03 02 01 0E A2 07 03 05   00 00 00 00 00 A3 81 FE  ................
+0020: 61 81 FB 30 81 F8 A0 03   02 01 05 A1 0D 1B 0B 45  a..0...........E
+0030: 58 41 4D 50 4C 45 2E 43   4F 4D A2 20 30 1E A0 03  XAMPLE.COM. 0...
+0040: 02 01 00 A1 17 30 15 1B   08 7A 6B 71 75 6F 72 75  .....0...zkquoru
+0050: 6D 1B 09 6C 6F 63 61 6C   68 6F 73 74 A3 81 BF 30  m..localhost...0
+0060: 81 BC A0 03 02 01 11 A1   03 02 01 01 A2 81 AF 04  ................
+0070: 81 AC 07 E6 EA 7F 63 09   BF 86 DE EF 45 1F A9 84  ......c.....E...
+0080: 3A B2 6E DE E0 77 B8 F8   9F FC B7 82 D1 A7 C8 DD  :.n..w..........
+0090: 74 89 F4 85 37 4A 7E D4   22 6A 53 6A AE A0 A5 A3  t...7J.."jSj....
+00A0: AC 78 07 BB FF 45 2E B5   EE 19 92 D7 93 2E 23 69  .x...E........#i
+00B0: 9A C4 4C 14 87 AD C4 2C   2D 58 2C FE 07 54 33 71  ..L....,-X,..T3q
+00C0: 9E BB 63 87 6C 6E 34 D6   AC 0F 40 6F 87 BE 6C 68  ..c.ln4...@o..lh
+00D0: D2 1A 43 4B E0 2F F1 C1   BC 11 8A C3 79 34 E1 68  ..CK./......y4.h
+00E0: D7 AD 2E 5B A4 7B 96 E5   E4 C1 55 75 67 2E 21 40  ...[......Uug.!@
+00F0: 90 9E 18 97 DB 15 17 56   B1 DD C8 0B CE 33 73 E9  .......V.....3s.
+0100: 5C 8F 92 01 83 7E BB 51   4A BF EA B8 6A 4E C3 FB  \......QJ...jN..
+0110: 8B 18 CD EB 37 AA D6 1C   B3 6B E9 84 F1 9C A4 81  ....7....k......
+0120: CC 30 81 C9 A0 03 02 01   11 A2 81 C1 04 81 BE 53  .0.............S
+0130: AC B8 46 CA 21 69 2D 45   07 C3 01 7A 59 3E D3 F2  ..F.!i-E...zY>..
+0140: 06 10 64 C8 DC A9 23 25   54 5F 09 A7 06 3A 24 CA  ..d...#%T_...:$.
+0150: 8A CD D8 FE 75 51 6A 20   CE E8 3D 0E 6F 44 04 32  ....uQj ..=.oD.2
+0160: BF 72 E6 5C D7 E0 02 25   F8 44 4E 41 C8 2E 0A 7C  .r.\...%.DNA....
+0170: 29 3C BB E6 6C 6E CC 8D   C7 6C 37 7C 53 24 53 F7  )<..ln...l7.S$S.
+0180: 97 39 7C 12 C9 43 74 30   3A 27 5C 0A B7 EE FD 1E  .9...Ct0:'\.....
+0190: E7 EB 03 60 B4 A3 25 94   5A 31 EC 33 06 88 FC 0D  ...`..%.Z1.3....
+01A0: 04 A3 54 63 92 2E 2B 8D   3A 14 9F 9E 1D 30 17 2F  ..Tc..+.:....0./
+01B0: D5 B3 0B 1D C9 0F F2 39   5A D6 75 62 22 66 7D 83  .......9Z.ub"f..
+01C0: 4E E0 7B A8 4A 63 01 61   C5 75 39 1F B4 73 2B 06  N...Jc.a.u9..s+.
+01D0: AE FC 82 B8 01 A6 54 A6   0B 4B 78 6D 3B B3 EA 55  ......T..Kxm;..U
+01E0: 89 1C 03 8F C6 5D 2D 88   BF 47 F5 66 E2           .....]-..G.f.
+
+Entered Krb5Context.acceptSecContext with state=STATE_NEW
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17, version: 1
+Found unsupported keytype (16) for zkquorum/localhost@EXAMPLE.COM
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+Using builtin default etypes for permitted_enctypes
+default etypes for permitted_enctypes: 18 17 20 19.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+MemoryCache: add 1693382254/105255/1CE57BEE25B87C4842A1A3480E491824A6A2CB10368F3167E5D44624E06A6EE1/zkclient/localhost@EXAMPLE.COM to zkclient/localhost@EXAMPLE.COM|zkquorum/localhost@EXAMPLE.COM
+>>> KrbApReq: authenticate succeed.
+Krb5Context setting peerSeqNumber to: 53899434
+Krb5Context setting mySeqNumber to: 53899434
+Krb5Context.wrap: data=[01 01 00 00 ]
+Krb5Context.wrap: token=[05 04 01 ff 00 0c 00 00 00 00 00 00 03 36 70 aa 01 01 00 00 18 bc 84 93 75 31 cd 46 ac 3c 3a 42 ]
+Krb5Context.unwrap: token=[05 04 01 ff 00 0c 00 00 00 00 00 00 03 36 70 aa 01 01 00 00 18 bc 84 93 75 31 cd 46 ac 3c 3a 42 ]
+Krb5Context.unwrap: data=[01 01 00 00 ]
+Krb5Context.wrap: data=[01 00 00 00 7a 6b 63 6c 69 65 6e 74 2f 6c 6f 63 61 6c 68 6f 73 74 40 45 58 41 4d 50 4c 45 2e 43 4f 4d ]
+Krb5Context.wrap: token=[05 04 00 ff 00 0c 00 00 00 00 00 00 03 36 70 aa 01 00 00 00 7a 6b 63 6c 69 65 6e 74 2f 6c 6f 63 61 6c 68 6f 73 74 40 45 58 41 4d 50 4c 45 2e 43 4f 4d 8c cf 97 94 92 9a bb 94 92 29 dc 88 ]
+Krb5Context.unwrap: token=[05 04 00 ff 00 0c 00 00 00 00 00 00 03 36 70 aa 01 00 00 00 7a 6b 63 6c 69 65 6e 74 2f 6c 6f 63 61 6c 68 6f 73 74 40 45 58 41 4d 50 4c 45 2e 43 4f 4d 8c cf 97 94 92 9a bb 94 92 29 dc 88 ]
+Krb5Context.unwrap: data=[01 00 00 00 7a 6b 63 6c 69 65 6e 74 2f 6c 6f 63 61 6c 68 6f 73 74 40 45 58 41 4d 50 4c 45 2e 43 4f 4d ]

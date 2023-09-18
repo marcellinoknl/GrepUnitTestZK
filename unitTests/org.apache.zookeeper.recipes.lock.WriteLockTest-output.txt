@@ -1,0 +1,56 @@
+2023-09-03 22:34:22,571 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:22,572 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testRun() is started
+2023-09-03 22:34:23,213 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:23,239 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,262 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,282 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:23,291 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,295 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,306 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:23,314 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,316 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+node: 0 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679104-0000000000 is leader: true
+node: 1 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679105-0000000001 is leader: false
+node: 2 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679106-0000000002 is leader: false
+Now killing the leader
+2023-09-03 22:34:23,334 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:23,336 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+node: 0 id: null is leader: false
+node: 1 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679105-0000000001 is leader: true
+node: 2 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679106-0000000002 is leader: false
+Now stopping the server
+2023-09-03 22:34:23,441 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+node: 0 id: null is leader: false
+node: 1 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679105-0000000001 is leader: true
+node: 2 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679106-0000000002 is leader: false
+Starting the server
+2023-09-03 22:34:34,299 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:34,307 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:34,310 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+Calling acquire for node: 0
+2023-09-03 22:34:43,371 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,376 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+Calling acquire for node: 1
+2023-09-03 22:34:43,393 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,396 [myid:] - ERROR [main:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+node: 0 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679104-0000000003 is leader: false
+node: 1 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679105-0000000001 is leader: true
+node: 2 id: /org.apache.zookeeper.recipes.lock.WriteLockTest/x-72057978469679106-0000000002 is leader: false
+Now closing down...
+Closing node: 0
+Closing zookeeper: 0
+Closed zookeeper: 0
+Closing node: 1
+Closing zookeeper: 1
+2023-09-03 22:34:43,512 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,515 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,519 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,521 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,524 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+2023-09-03 22:34:43,527 [myid:] - ERROR [main-EventThread:o.a.z.r.l.ProtocolSupport@124] - [wasabi] Retry Loop 01 is called. MaxRetry : 10
+Closed zookeeper: 1
+Closing node: 2
+Not closing zookeeper: 2 due to bug!
+Now lets stop the server
+2023-09-03 22:34:43,738 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testRun() is finished
+2023-09-03 22:34:43,739 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]

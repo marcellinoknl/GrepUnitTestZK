@@ -1,0 +1,1306 @@
+2023-08-30 14:55:26,771 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30075:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:26,779 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30075:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:26,822 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30078:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:26,824 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30078:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:26,963 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30081:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:26,964 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30081:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:27,293 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:27,293 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:27,305 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:27,311 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:27,843 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:27,854 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:27,857 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:27,958 [myid:] - ERROR [LearnerHandler-/127.0.0.1:36914:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:27,960 [myid:] - ERROR [LearnerHandler-/127.0.0.1:36930:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:27,959 [myid:] - ERROR [ProcessThread(sid:3 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:3 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:55:27,973 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:27,974 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:27,981 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:27,982 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:28,380 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5594, connecting to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,381 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,385 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5596, connecting to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,386 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,398 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:28,399 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:28,409 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:28,410 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:28,802 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5597, connecting to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,802 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,812 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5598, connecting to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:28,813 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30080:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30080
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:29,235 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30077:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:29,236 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30077:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:29,457 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30077:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:29,460 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30077:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:30,663 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:55:30,666 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:55:31,019 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58494:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:31,028 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58508:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:31,137 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30084:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:31,138 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30084:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:31,153 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30087:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:31,154 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30087:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:31,185 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:31,185 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:31,414 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:31,415 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:31,416 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:31,416 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:31,752 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:31,778 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:31,783 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:31,966 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:31,970 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:31,974 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:31,978 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:31,981 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:31,983 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:31,986 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:31,988 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:31,991 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:31,993 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:31,997 [myid:] - ERROR [LearnerHandler-/127.0.0.1:34184:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:32,000 [myid:] - ERROR [LearnerHandler-/127.0.0.1:34168:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:32,217 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:32,220 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:33,614 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:33,615 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:33,625 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:33,626 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:35,130 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:35,133 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:35,136 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:35,138 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:35,139 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:35,141 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:35,143 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:35,146 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:35,148 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:35,150 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:35,224 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:35,226 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:35,228 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:35,229 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:35,231 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:35,233 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:35,235 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:35,237 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:35,238 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:35,240 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:35,242 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:35,244 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:35,246 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:35,247 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:35,249 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:35,251 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:35,253 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:35,255 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:35,256 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:35,258 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:35,273 [myid:] - ERROR [ProcessThread(sid:2 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:2 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:55:35,274 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33420:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:35,275 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33424:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:35,502 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:35,503 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:35,505 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:35,505 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:36,975 [myid:] - ERROR [LearnerHandler-/127.0.0.1:34202:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:37,081 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30087:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:37,082 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30087:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:37,137 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:37,138 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30089:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:38,235 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:38,239 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:38,247 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:38,251 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:38,253 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:38,258 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:38,259 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:38,261 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:38,263 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:38,265 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:38,266 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:38,268 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:38,269 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:38,271 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:38,273 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:38,275 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:38,277 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:38,278 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:38,280 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:38,282 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:38,283 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffd
+2023-08-30 14:55:38,285 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffe
+2023-08-30 14:55:38,365 [myid:] - ERROR [LearnerHandler-/127.0.0.1:34192:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:38,366 [myid:] - ERROR [LearnerHandler-/127.0.0.1:34214:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:38,838 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:38,839 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:40,431 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:40,432 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30090:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:40,541 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:40,541 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30086:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:42,084 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:42,086 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:42,088 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:42,090 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:42,092 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:42,094 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:42,096 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:42,098 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:42,100 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:42,102 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:42,104 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:42,106 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:42,108 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:42,109 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:42,111 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:42,116 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:42,124 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:42,129 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:42,131 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:42,133 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:42,135 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffd
+2023-08-30 14:55:42,145 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffe
+2023-08-30 14:55:42,148 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000001
+2023-08-30 14:55:42,151 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000002
+2023-08-30 14:55:42,153 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000003
+2023-08-30 14:55:42,155 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000004
+2023-08-30 14:55:42,159 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000005
+2023-08-30 14:55:42,165 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000006
+2023-08-30 14:55:42,168 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000007
+2023-08-30 14:55:42,172 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000008
+2023-08-30 14:55:42,176 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000009
+2023-08-30 14:55:42,179 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:30000000a
+2023-08-30 14:55:42,655 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33440:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:42,669 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33444:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:42,889 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:42,889 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:42,964 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30096:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:42,965 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30096:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:43,031 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30099:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:43,032 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30099:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:43,290 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:43,290 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:43,332 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:43,332 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:43,537 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:43,538 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:43,542 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:43,663 [myid:] - ERROR [LearnerHandler-/127.0.0.1:47124:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:43,663 [myid:] - ERROR [LearnerHandler-/127.0.0.1:47110:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:43,663 [myid:] - ERROR [ProcessThread(sid:3 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:3 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:55:43,873 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:43,873 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:44,373 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:44,374 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:45,577 [myid:] - ERROR [LearnerHandler-/127.0.0.1:60388:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:45,734 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:45,741 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:45,771 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:45,772 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30095:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:47,485 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:47,533 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:47,556 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:47,558 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:47,571 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:47,577 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:47,579 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:47,581 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:47,583 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:47,586 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:47,589 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:55:47,591 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:55:47,711 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:47,712 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:47,714 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:47,715 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:47,717 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:47,718 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:47,720 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:47,721 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:47,723 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:47,727 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:47,729 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:55:47,730 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:55:47,732 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:47,741 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:47,743 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:47,745 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:47,747 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:47,749 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:47,750 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:47,755 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:47,763 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:47,765 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:47,792 [myid:] - ERROR [ProcessThread(sid:2 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:2 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:55:47,794 [myid:] - ERROR [LearnerHandler-/127.0.0.1:60390:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:47,794 [myid:] - ERROR [LearnerHandler-/127.0.0.1:60396:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:48,122 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:48,123 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:48,191 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:48,192 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:49,620 [myid:] - ERROR [LearnerHandler-/127.0.0.1:47146:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:49,790 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:49,791 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:49,833 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:49,834 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:51,316 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:51,384 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:51,425 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:51,430 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:51,433 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:51,438 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:51,443 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:51,445 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:51,446 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:51,448 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:51,449 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:55:51,451 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:55:51,452 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:51,454 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:51,455 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:51,457 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:51,459 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:51,460 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:51,461 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:51,463 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:51,464 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:51,465 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:51,467 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffd
+2023-08-30 14:55:51,468 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffe
+2023-08-30 14:55:51,539 [myid:] - ERROR [LearnerHandler-/127.0.0.1:47160:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:51,745 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:51,745 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30093:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:51,979 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:51,979 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30098:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:53,789 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:55:53,851 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:55:53,868 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:55:53,869 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:55:53,870 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:55:53,872 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:55:53,874 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:55:53,875 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:55:53,876 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:55:53,877 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:55:53,879 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:55:53,881 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:55:53,882 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:55:53,884 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:55:53,885 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:55:53,900 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:55:53,901 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:55:53,903 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:55:53,911 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:55:53,914 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:55:53,915 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:55:53,918 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:55:53,919 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffd
+2023-08-30 14:55:53,922 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:2fffffffe
+2023-08-30 14:55:53,923 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000001
+2023-08-30 14:55:53,925 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000002
+2023-08-30 14:55:53,926 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000003
+2023-08-30 14:55:53,932 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000004
+2023-08-30 14:55:53,934 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000005
+2023-08-30 14:55:53,945 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000006
+2023-08-30 14:55:53,949 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000007
+2023-08-30 14:55:53,952 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000008
+2023-08-30 14:55:53,956 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000009
+2023-08-30 14:55:53,958 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:30000000a
+2023-08-30 14:55:54,423 [myid:] - ERROR [LearnerHandler-/127.0.0.1:57636:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:54,429 [myid:] - ERROR [LearnerHandler-/127.0.0.1:47142:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:54,629 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30102:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:54,629 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30102:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:54,762 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30105:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:54,763 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30105:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:54,995 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:54,995 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:55,241 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:55,241 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:55,319 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:55,320 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:55,759 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:55,770 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:55,792 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:56,147 [myid:] - ERROR [ProcessThread(sid:2 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:2 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:55:56,148 [myid:] - ERROR [LearnerHandler-/127.0.0.1:40492:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:56,152 [myid:] - ERROR [SyncThread:3:o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : SyncThread:3
+java.lang.NullPointerException: Cannot invoke "java.net.Socket.isClosed()" because "this.learner.sock" is null
+	at org.apache.zookeeper.server.quorum.SendAckRequestProcessor.flush(SendAckRequestProcessor.java:67)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:248)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)
+2023-08-30 14:55:56,152 [myid:] - ERROR [LearnerHandler-/127.0.0.1:40476:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:56,407 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:56,407 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:56,625 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:56,625 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:58,253 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56310:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:58,259 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56320:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:55:58,266 [myid:] - ERROR [SyncThread:2:o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : SyncThread:2
+java.lang.NullPointerException: Cannot invoke "org.apache.zookeeper.server.persistence.TxnLog.commit()" because "this.txnLog" is null
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:600)
+	at org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:697)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:235)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)
+2023-08-30 14:55:58,483 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30102:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:58,488 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30102:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:58,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30105:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:58,732 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30105:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:58,920 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:58,920 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:59,236 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:59,236 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:59,275 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:59,276 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:00,232 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:00,310 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:00,311 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:00,312 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:00,314 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:00,316 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:00,318 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:00,319 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:00,320 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:00,322 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:00,323 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:00,325 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:00,326 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:56:00,327 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:56:00,328 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:56:00,330 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:56:00,331 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:56:00,333 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:56:00,334 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:56:00,343 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:56:00,344 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:56:00,346 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:56:00,347 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000b
+2023-08-30 14:56:00,348 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000c
+2023-08-30 14:56:00,349 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000d
+2023-08-30 14:56:00,350 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000e
+2023-08-30 14:56:00,352 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000f
+2023-08-30 14:56:00,353 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000010
+2023-08-30 14:56:00,354 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000011
+2023-08-30 14:56:00,355 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000012
+2023-08-30 14:56:00,356 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000013
+2023-08-30 14:56:00,357 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000014
+2023-08-30 14:56:00,358 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000015
+2023-08-30 14:56:00,359 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000016
+2023-08-30 14:56:00,361 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000017
+2023-08-30 14:56:00,362 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000018
+2023-08-30 14:56:00,363 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000019
+2023-08-30 14:56:00,368 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001a
+2023-08-30 14:56:00,369 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001b
+2023-08-30 14:56:00,370 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001c
+2023-08-30 14:56:00,372 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001d
+2023-08-30 14:56:00,373 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001e
+2023-08-30 14:56:00,389 [myid:] - ERROR [ProcessThread(sid:3 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:3 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:56:00,390 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56328:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:00,393 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56338:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:00,689 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:00,689 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:00,704 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:00,704 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30107:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:02,284 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56362:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:02,285 [myid:] - ERROR [LearnerHandler-/127.0.0.1:56358:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:02,804 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:02,804 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:04,554 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:04,557 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30108:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:04,765 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:04,766 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30104:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:05,224 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:05,226 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:05,232 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:05,238 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:05,239 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:05,244 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:05,245 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:05,246 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:05,247 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:05,249 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:05,250 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:05,251 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:05,252 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000001
+2023-08-30 14:56:05,253 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000002
+2023-08-30 14:56:05,254 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000003
+2023-08-30 14:56:05,255 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000004
+2023-08-30 14:56:05,263 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000005
+2023-08-30 14:56:05,269 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000006
+2023-08-30 14:56:05,275 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000007
+2023-08-30 14:56:05,276 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000008
+2023-08-30 14:56:05,277 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000009
+2023-08-30 14:56:05,279 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000a
+2023-08-30 14:56:05,280 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000b
+2023-08-30 14:56:05,282 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000c
+2023-08-30 14:56:05,283 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000d
+2023-08-30 14:56:05,284 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000e
+2023-08-30 14:56:05,285 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000000f
+2023-08-30 14:56:05,289 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000010
+2023-08-30 14:56:05,291 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000011
+2023-08-30 14:56:05,298 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000012
+2023-08-30 14:56:05,301 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000013
+2023-08-30 14:56:05,303 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000014
+2023-08-30 14:56:05,304 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000015
+2023-08-30 14:56:05,309 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000016
+2023-08-30 14:56:05,310 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000017
+2023-08-30 14:56:05,315 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000018
+2023-08-30 14:56:05,317 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:200000019
+2023-08-30 14:56:05,318 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001a
+2023-08-30 14:56:05,320 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001b
+2023-08-30 14:56:05,328 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001c
+2023-08-30 14:56:05,329 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001d
+2023-08-30 14:56:05,331 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:20000001e
+2023-08-30 14:56:05,332 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffd
+2023-08-30 14:56:05,335 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffe
+2023-08-30 14:56:05,814 [myid:] - ERROR [LearnerHandler-/127.0.0.1:49400:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:05,823 [myid:] - ERROR [LearnerHandler-/127.0.0.1:49408:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:06,003 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:06,003 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:06,117 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:06,123 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:06,219 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:06,219 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:06,761 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:06,761 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:06,785 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:06,786 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:07,278 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:07,296 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:07,318 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:07,603 [myid:] - ERROR [ProcessThread(sid:3 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:3 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:56:07,603 [myid:] - ERROR [LearnerHandler-/127.0.0.1:59178:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:07,603 [myid:] - ERROR [LearnerHandler-/127.0.0.1:59176:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:07,897 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30113:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:07,899 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30113:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:08,023 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30113:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:08,025 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30113:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:09,578 [myid:] - ERROR [LearnerHandler-/127.0.0.1:49992:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:09,585 [myid:] - ERROR [LearnerHandler-/127.0.0.1:49998:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:09,801 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:09,802 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:09,948 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:09,948 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:09,997 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:09,997 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:10,374 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:10,375 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:10,390 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:10,390 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:11,645 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:11,696 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:11,763 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:11,769 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:11,770 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:11,771 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:11,772 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:11,773 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:11,775 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:11,776 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:11,777 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:11,778 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:11,886 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:11,887 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:11,888 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:11,890 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:11,891 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:11,892 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:11,894 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:11,895 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:11,896 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:11,897 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:11,900 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:11,905 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:11,906 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000001
+2023-08-30 14:56:11,907 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000002
+2023-08-30 14:56:11,909 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000003
+2023-08-30 14:56:11,910 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000004
+2023-08-30 14:56:11,912 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000005
+2023-08-30 14:56:11,914 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000006
+2023-08-30 14:56:11,924 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000007
+2023-08-30 14:56:11,927 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000008
+2023-08-30 14:56:11,929 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000009
+2023-08-30 14:56:11,932 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:30000000a
+2023-08-30 14:56:11,953 [myid:] - ERROR [LearnerHandler-/127.0.0.1:59180:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:11,953 [myid:] - ERROR [LearnerHandler-/127.0.0.1:59188:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:248)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:327)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:11,953 [myid:] - ERROR [ProcessThread(sid:3 cport:-1)::o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : ProcessThread(sid:3 cport:-1):
+org.apache.zookeeper.server.RequestProcessor$RequestProcessorException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:87)
+	at org.apache.zookeeper.server.PrepRequestProcessor.pRequest(PrepRequestProcessor.java:761)
+	at org.apache.zookeeper.server.PrepRequestProcessor.run(PrepRequestProcessor.java:157)
+Caused by: org.apache.zookeeper.server.quorum.Leader$XidRolloverException: zxid lower 32 bits have rolled over, forcing re-election, and therefore new epoch start
+	at org.apache.zookeeper.server.quorum.Leader.propose(Leader.java:1250)
+	at org.apache.zookeeper.server.quorum.ProposalRequestProcessor.processRequest(ProposalRequestProcessor.java:85)
+	... 2 common frames omitted
+2023-08-30 14:56:11,954 [myid:] - ERROR [SyncThread:2:o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : SyncThread:2
+java.lang.NullPointerException: Cannot invoke "java.net.Socket.isClosed()" because "this.learner.sock" is null
+	at org.apache.zookeeper.server.quorum.SendAckRequestProcessor.flush(SendAckRequestProcessor.java:67)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:248)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)
+2023-08-30 14:56:12,022 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:12,022 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:12,059 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:12,060 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:12,425 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5598, connecting to /127.0.0.1:30116
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:56:12,425 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30116
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:56:12,463 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@437] - Unexpected exception, retries exceeded. tries=4, remaining init limit=5596, connecting to /127.0.0.1:30116
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:56:12,463 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@388] - Failed connect to /127.0.0.1:30116
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.zookeeper.server.quorum.Learner.sockConnect(Learner.java:301)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.connectToLeader(Learner.java:419)
+	at org.apache.zookeeper.server.quorum.Learner$LeaderConnector.run(Learner.java:376)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:56:16,730 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:16,731 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:16,923 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:16,925 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:17,050 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:17,062 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:17,618 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:17,619 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:17,659 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:17,659 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:18,338 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:18,411 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:18,412 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:18,413 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:18,420 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:18,421 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:18,423 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:18,424 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:18,425 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:18,433 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:18,434 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:18,435 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:18,436 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000001
+2023-08-30 14:56:18,437 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000002
+2023-08-30 14:56:18,438 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000003
+2023-08-30 14:56:18,439 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000004
+2023-08-30 14:56:18,439 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000005
+2023-08-30 14:56:18,440 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000006
+2023-08-30 14:56:18,441 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000007
+2023-08-30 14:56:18,442 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000008
+2023-08-30 14:56:18,443 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000009
+2023-08-30 14:56:18,444 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:30000000a
+2023-08-30 14:56:18,445 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffd
+2023-08-30 14:56:18,446 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffe
+2023-08-30 14:56:18,528 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42588:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:18,531 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42572:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:18,539 [myid:] - ERROR [SyncThread:2:o.a.z.s.ZooKeeperCriticalThread@49] - Severe unrecoverable error, from thread : SyncThread:2
+java.lang.NullPointerException: Cannot invoke "java.net.Socket.isClosed()" because "this.learner.sock" is null
+	at org.apache.zookeeper.server.quorum.SendAckRequestProcessor.flush(SendAckRequestProcessor.java:67)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:248)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)
+2023-08-30 14:56:18,767 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:18,767 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30111:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:18,898 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:18,899 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30114:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:19,097 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:19,097 [myid:] - ERROR [ListenerHandler-/127.0.0.1:30117:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:19,557 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:19,558 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:19,567 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:19,567 [myid:] - ERROR [LeaderConnector-/127.0.0.1:30116:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:20,375 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000004
+2023-08-30 14:56:20,402 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000005
+2023-08-30 14:56:20,415 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000006
+2023-08-30 14:56:20,418 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000007
+2023-08-30 14:56:20,423 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000008
+2023-08-30 14:56:20,424 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:100000009
+2023-08-30 14:56:20,425 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000a
+2023-08-30 14:56:20,427 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000b
+2023-08-30 14:56:20,428 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000c
+2023-08-30 14:56:20,430 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:10000000d
+2023-08-30 14:56:20,431 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffd
+2023-08-30 14:56:20,449 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:1fffffffe
+2023-08-30 14:56:20,453 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000001
+2023-08-30 14:56:20,455 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000002
+2023-08-30 14:56:20,456 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000003
+2023-08-30 14:56:20,457 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000004
+2023-08-30 14:56:20,458 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000005
+2023-08-30 14:56:20,459 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000006
+2023-08-30 14:56:20,460 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000007
+2023-08-30 14:56:20,461 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000008
+2023-08-30 14:56:20,462 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:300000009
+2023-08-30 14:56:20,467 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:30000000a
+2023-08-30 14:56:20,468 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffd
+2023-08-30 14:56:20,469 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:3fffffffe
+2023-08-30 14:56:20,470 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000001
+2023-08-30 14:56:20,471 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000002
+2023-08-30 14:56:20,473 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000003
+2023-08-30 14:56:20,474 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000004
+2023-08-30 14:56:20,475 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000005
+2023-08-30 14:56:20,476 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000006
+2023-08-30 14:56:20,477 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000007
+2023-08-30 14:56:20,478 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000008
+2023-08-30 14:56:20,479 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:400000009
+2023-08-30 14:56:20,480 [myid:] - ERROR [main:o.a.z.s.ZxidRolloverTest@251] - Exists zxid:40000000a
+2023-08-30 14:56:20,966 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42606:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:20,971 [myid:] - ERROR [LearnerHandler-/127.0.0.1:42602:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

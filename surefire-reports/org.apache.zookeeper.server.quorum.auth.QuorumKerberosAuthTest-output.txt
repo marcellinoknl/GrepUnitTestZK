@@ -1,0 +1,91 @@
+2023-08-30 14:51:32,110 [myid:] - ERROR [Thread-4:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,110 [myid:] - ERROR [Thread-5:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,131 [myid:] - ERROR [Thread-6:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,165 [myid:] - ERROR [Thread-7:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,166 [myid:] - ERROR [Thread-8:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,168 [myid:] - ERROR [Thread-9:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,233 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19313:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,234 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19315:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,234 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19313:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,234 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19315:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,265 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19308:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,266 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19308:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,266 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19310:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,270 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19305:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,273 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19305:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,270 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19310:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,271 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19303:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,277 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19303:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,555 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,563 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,565 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,568 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,571 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,575 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,609 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,630 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,649 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,902 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19312:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,903 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19312:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,906 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19314:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,906 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19314:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,914 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19312:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,915 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19312:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,935 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19314:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,938 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19314:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,968 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:19312:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,999 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:19312:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,275 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:33,569 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58318:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:33,583 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58334:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:33,678 [myid:] - ERROR [Thread-26:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,694 [myid:] - ERROR [Thread-28:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,697 [myid:] - ERROR [Thread-27:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,736 [myid:] - ERROR [Thread-29:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,747 [myid:] - ERROR [Thread-31:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,747 [myid:] - ERROR [Thread-30:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,791 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19321:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,791 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19321:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,798 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19324:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,800 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19324:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,818 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19318:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,819 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:19318:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,845 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,845 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,861 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,864 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,879 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,880 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:34,092 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19323:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:34,093 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19323:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:34,092 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19323:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:34,093 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:19323:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:34,100 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:19323:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:34,108 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:19323:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:34,367 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:34,595 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58930:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:34,600 [myid:] - ERROR [LearnerHandler-/127.0.0.1:58926:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

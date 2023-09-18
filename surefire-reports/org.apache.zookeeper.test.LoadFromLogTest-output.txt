@@ -1,0 +1,14 @@
+2023-08-30 15:00:49,858 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:50,350 [myid:] - ERROR [main:o.a.z.s.DataTree@1831] - First digest mismatch on txn: 72058249336455168,3,3,1693382450157,1
+, '/a/b,,v{s{31,s{'world,'anyone}}},F,1
+, expected digest is 2,6743627106
+, actual digest is 2228969093, 
+2023-08-30 15:00:50,965 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:52,728 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:54,669 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:55,977 [myid:] - ERROR [main:o.a.z.s.DataTree@1831] - First digest mismatch on txn: 72058249675669504,293,294,1693382455839,1
+, '/invalidsnap/test-0000000291,,v{s{31,s{'world,'anyone}}},F,292
+, expected digest is 2,654318048725
+, actual digest is 670482444428, 
+2023-08-30 15:00:55,999 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:56,170 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

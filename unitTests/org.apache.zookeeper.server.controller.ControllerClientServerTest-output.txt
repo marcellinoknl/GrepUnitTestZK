@@ -1,0 +1,169 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2023-09-03 22:28:05,041 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:05,045 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:06,883 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:35475:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:06,884 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:35475:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:07,481 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:07,904 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:41455)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:08,789 [myid:] - ERROR [qtp1298437731-23:o.a.z.s.c.CommandListener$CommandHandler@85] - Bad argument or command
+java.lang.NumberFormatException: For input string: "hanm"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1136)
+	at java.base/java.lang.Long.decode(Long.java:1299)
+	at org.apache.zookeeper.server.controller.ZooKeeperServerController.processCommand(ZooKeeperServerController.java:121)
+	at org.apache.zookeeper.server.controller.CommandListener$CommandHandler.handle(CommandListener.java:81)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-03 22:28:08,910 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:08,910 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:09,051 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:32841:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:09,053 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:32841:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:09,055 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:09,275 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:38759)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:09,390 [myid:] - ERROR [qtp1193837975-71:o.a.z.s.c.CommandListener$CommandHandler@85] - Bad argument or command
+java.lang.NumberFormatException: For input string: "hanm"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1136)
+	at java.base/java.lang.Long.decode(Long.java:1299)
+	at org.apache.zookeeper.server.controller.ZooKeeperServerController.processCommand(ZooKeeperServerController.java:153)
+	at org.apache.zookeeper.server.controller.CommandListener$CommandHandler.handle(CommandListener.java:81)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-03 22:28:09,441 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:09,442 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:09,538 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:09,540 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37487:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:09,541 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37487:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:09,758 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:34619)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:09,867 [myid:] - ERROR [qtp457027765-117:o.a.z.s.c.CommandListener$CommandHandler@85] - Bad argument or command
+java.lang.NumberFormatException: For input string: "hanm"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1136)
+	at java.base/java.lang.Long.decode(Long.java:1299)
+	at org.apache.zookeeper.server.controller.ZooKeeperServerController.processCommand(ZooKeeperServerController.java:140)
+	at org.apache.zookeeper.server.controller.CommandListener$CommandHandler.handle(CommandListener.java:81)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-03 22:28:09,898 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:09,899 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:09,977 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37625:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:09,979 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:09,979 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37625:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:10,187 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:40225)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,217 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:10,217 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:10,234 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:43925:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:10,236 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,236 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:43925:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:10,442 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:37455)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,524 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:43925:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:10,524 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:43925:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:10,532 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:10,532 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:10,553 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37851:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:10,554 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,554 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:37851:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:10,761 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:43743)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,844 [myid:] - ERROR [qtp1820650099-265:o.a.z.s.c.CommandListener$CommandHandler@85] - Bad argument or command
+java.lang.NumberFormatException: For input string: "hanm"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1136)
+	at java.base/java.lang.Long.decode(Long.java:1299)
+	at org.apache.zookeeper.server.controller.ZooKeeperServerController.processCommand(ZooKeeperServerController.java:131)
+	at org.apache.zookeeper.server.controller.CommandListener$CommandHandler.handle(CommandListener.java:81)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-03 22:28:10,863 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@56] - [wasabi] Retry Loop 08 is called. MaxRetry :50
+2023-09-03 22:28:10,864 [myid:] - ERROR [main:o.a.z.s.c.ControllerTestBase@57] - [wasabi] Retry Loop 02 is called. MaxDuration : 100
+2023-09-03 22:28:10,894 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:46335:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-09-03 22:28:10,894 [myid:] - ERROR [WorkerReceiver[myid=0]:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:10,894 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:46335:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-09-03 22:28:11,102 [myid:] - ERROR [QuorumPeer[myid=0](plain=127.0.0.1:37637)(secure=disabled):o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:11,178 [myid:] - ERROR [qtp461403415-313:o.a.z.s.c.CommandListener$CommandHandler@85] - Bad argument or command
+java.lang.NumberFormatException: For input string: "hanm"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1136)
+	at java.base/java.lang.Long.decode(Long.java:1299)
+	at org.apache.zookeeper.server.controller.ZooKeeperServerController.processCommand(ZooKeeperServerController.java:146)
+	at org.apache.zookeeper.server.controller.CommandListener$CommandHandler.handle(CommandListener.java:81)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)

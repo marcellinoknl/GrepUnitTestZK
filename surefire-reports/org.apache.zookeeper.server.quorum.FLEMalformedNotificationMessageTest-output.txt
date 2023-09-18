@@ -1,0 +1,26 @@
+2023-08-30 14:53:10,930 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27381:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:10,943 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27381:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:10,973 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27383:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:10,978 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27383:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,456 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27387:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,457 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27387:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,472 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27389:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,473 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27389:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,755 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27393:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,756 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27393:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,793 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27395:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,806 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27395:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,953 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27399:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,953 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27399:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:11,967 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27401:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:11,967 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27401:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:12,191 [myid:] - ERROR [Thread-10:o.a.z.s.NIOServerCnxnFactory@85] - Thread Thread[Thread-10,5,main] died
+org.opentest4j.AssertionFailedError: State is not leading. ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:193)
+	at org.apache.zookeeper.server.quorum.FLETestUtils$LEThread.run(FLETestUtils.java:67)
+2023-08-30 14:53:12,265 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27405:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:12,266 [myid:] - ERROR [ListenerHandler-0.0.0.0/0.0.0.0:27405:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:53:12,289 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27407:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:53:12,289 [myid:] - ERROR [ListenerHandler-/0.0.0.0:27407:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3

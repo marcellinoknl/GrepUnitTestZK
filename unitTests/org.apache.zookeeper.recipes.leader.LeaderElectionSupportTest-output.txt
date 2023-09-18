@@ -1,0 +1,117 @@
+2023-09-03 22:33:49,182 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:33:49,183 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testNode() is started
+2023-09-03 22:33:49,562 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:33:52,749 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testNode() is finished
+2023-09-03 22:33:52,750 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:33:52,753 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:33:52,754 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testOfferShuffle() is started
+2023-09-03 22:33:52,774 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:02,978 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testOfferShuffle() is finished
+2023-09-03 22:34:02,978 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:02,981 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:02,981 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testReadyOffer() is started
+2023-09-03 22:34:02,998 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:03,143 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testReadyOffer() is finished
+2023-09-03 22:34:03,143 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:03,145 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:03,146 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testGetLeaderHostName() is started
+2023-09-03 22:34:03,164 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:06,314 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testGetLeaderHostName() is finished
+2023-09-03 22:34:06,314 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:06,316 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:06,317 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testNodes3() is started
+2023-09-03 22:34:06,333 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:09,483 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testNodes3() is finished
+2023-09-03 22:34:09,484 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:09,487 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:09,488 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testNodes9() is started
+2023-09-03 22:34:09,508 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:12,662 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testNodes9() is finished
+2023-09-03 22:34:12,662 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:12,664 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:12,664 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testNodes20() is started
+2023-09-03 22:34:12,678 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:15,909 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testNodes20() is finished
+2023-09-03 22:34:15,909 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]
+2023-09-03 22:34:15,913 [myid:] - ERROR [main:o.w.l.WasabiListener5@22] - [WASABISTART]
+2023-09-03 22:34:15,914 [myid:] - ERROR [main:o.w.l.WasabiListener5@23] - [wasabi] testNodes100() is started
+2023-09-03 22:34:15,931 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:34:19,316 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000005
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,458 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000014
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,535 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000015
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,680 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000054
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,692 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000058
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,708 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000065
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,718 [myid:] - ERROR [main-EventThread:o.a.z.r.l.LeaderElectionSupport@271] - Failed in state STOP
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /1693755229166_1/n_0000000073
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1972)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:2000)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.toLeaderOffers(LeaderElectionSupport.java:310)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.determineElectionStatus(LeaderElectionSupport.java:199)
+	at org.apache.zookeeper.recipes.leader.LeaderElectionSupport.process(LeaderElectionSupport.java:335)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:563)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:538)
+2023-09-03 22:34:19,856 [myid:] - ERROR [main:o.w.l.WasabiListener5@30] - [wasabi] testNodes100() is finished
+2023-09-03 22:34:19,857 [myid:] - ERROR [main:o.w.l.WasabiListener5@31] - [WASABIEND]

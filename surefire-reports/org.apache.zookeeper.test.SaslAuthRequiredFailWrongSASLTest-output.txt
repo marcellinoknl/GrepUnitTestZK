@@ -1,0 +1,9 @@
+2023-08-30 15:00:19,168 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 15:00:19,255 [myid:127.0.0.1:16608] - ERROR [main-SendThread(127.0.0.1:16608):o.a.z.c.ZooKeeperSaslClient@275] - SASL authentication failed using login context 'Client'.
+javax.security.sasl.SaslException: Error in authenticating with a Zookeeper Quorum member: the quorum member's saslToken is null.
+	at org.apache.zookeeper.client.ZooKeeperSaslClient.createSaslToken(ZooKeeperSaslClient.java:310)
+	at org.apache.zookeeper.client.ZooKeeperSaslClient.respondToServer(ZooKeeperSaslClient.java:270)
+	at org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:919)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:98)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1276)

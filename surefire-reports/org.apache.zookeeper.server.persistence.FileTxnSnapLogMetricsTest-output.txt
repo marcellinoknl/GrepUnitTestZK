@@ -1,0 +1,10 @@
+2023-08-30 14:50:47,752 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:50:48,833 [myid:] - ERROR [Snapshot Thread:o.a.z.s.ZooKeeperServer@580] - Severe unrecoverable error, exiting
+java.io.IOException: FileSnap has already been closed
+	at org.apache.zookeeper.server.persistence.FileSnap.serialize(FileSnap.java:274)
+	at org.apache.zookeeper.server.persistence.FileTxnSnapLog.save(FileTxnSnapLog.java:482)
+	at org.apache.zookeeper.server.ZooKeeperServer.takeSnapshot(ZooKeeperServer.java:577)
+	at org.apache.zookeeper.server.ZooKeeperServer.takeSnapshot(ZooKeeperServer.java:557)
+	at org.apache.zookeeper.server.ZooKeeperServer.takeSnapshot(ZooKeeperServer.java:553)
+	at org.apache.zookeeper.server.SyncRequestProcessor$1.run(SyncRequestProcessor.java:193)
+2023-08-30 14:50:48,835 [myid:] - ERROR [Snapshot Thread:o.a.z.u.ServiceUtils@58] - Fatal error, JVM should exit with code 10. Actually System.exit is disabled

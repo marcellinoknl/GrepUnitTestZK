@@ -1,0 +1,31 @@
+2023-08-30 14:56:12,911 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21999:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:12,911 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21999:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:12,927 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21996:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:12,928 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21996:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:12,946 [myid:] - ERROR [ListenerHandler-/127.0.0.1:22002:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:12,947 [myid:] - ERROR [ListenerHandler-/127.0.0.1:22002:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:13,447 [myid:] - ERROR [LeaderConnector-/127.0.0.1:22001:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:13,447 [myid:] - ERROR [LeaderConnector-/127.0.0.1:22001:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:13,451 [myid:] - ERROR [LeaderConnector-/127.0.0.1:22001:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:56:13,451 [myid:] - ERROR [LeaderConnector-/127.0.0.1:22001:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:56:13,925 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:14,121 [myid:] - ERROR [CommitProcessor:0:o.a.z.a.Slf4jAuditLogger@33] - session=0x945d400000	user=127.0.0.1	ip=127.0.0.1	operation=multiOperation	result=failure
+2023-08-30 14:56:14,194 [myid:] - ERROR [CommitProcessor:0:o.a.z.a.Slf4jAuditLogger@33] - session=0x945d400000	user=127.0.0.1	ip=127.0.0.1	operation=create	znode=/createPath	znode_type=persistent	result=failure
+2023-08-30 14:56:14,222 [myid:] - ERROR [CommitProcessor:0:o.a.z.a.Slf4jAuditLogger@33] - session=0x945d400000	user=127.0.0.1	ip=127.0.0.1	operation=setData	znode=/setDataPath	result=failure
+2023-08-30 14:56:14,249 [myid:] - ERROR [CommitProcessor:0:o.a.z.a.Slf4jAuditLogger@33] - session=0x945d400000	user=127.0.0.1	ip=127.0.0.1	operation=delete	znode=/deletePath	result=failure
+2023-08-30 14:56:14,271 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:56:14,474 [myid:] - ERROR [CommitProcessor:0:o.a.z.a.Slf4jAuditLogger@33] - session=0x945d400000	user=127.0.0.1	ip=127.0.0.1	operation=setAcl	znode=/aclPath	acl=world:anyone:cdrwa	result=failure
+2023-08-30 14:56:14,490 [myid:] - ERROR [LearnerHandler-/127.0.0.1:53126:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:56:14,514 [myid:] - ERROR [LearnerHandler-/127.0.0.1:53114:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

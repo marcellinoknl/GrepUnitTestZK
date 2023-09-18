@@ -1,0 +1,654 @@
+2023-08-30 14:51:20,050 [myid:] - ERROR [Thread-5:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,050 [myid:] - ERROR [Thread-4:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,070 [myid:] - ERROR [Thread-6:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,113 [myid:] - ERROR [Thread-8:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,119 [myid:] - ERROR [Thread-7:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,120 [myid:] - ERROR [Thread-9:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:20,156 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27388:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:20,157 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27388:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:20,159 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27385:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:20,159 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27385:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:20,162 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27382:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:20,162 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27382:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,379 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,406 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,641 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27387:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:20,641 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27387:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:20,647 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27387:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:20,648 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27387:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:20,747 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27387:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,753 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27387:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:20,953 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:21,164 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:21,197 [myid:] - ERROR [Thread-14:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:21,221 [myid:] - ERROR [Thread-15:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:21,230 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27391:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:21,231 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27391:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:21,259 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,263 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,265 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,264 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,268 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,268 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,270 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,271 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:46356, closing server connection
+2023-08-30 14:51:21,271 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:36502, closing server connection
+2023-08-30 14:51:21,271 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:41196, closing server connection
+2023-08-30 14:51:21,451 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,453 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,455 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,455 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,456 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,456 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,456 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:38944, closing server connection
+2023-08-30 14:51:21,457 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,457 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,457 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,458 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:53336, closing server connection
+2023-08-30 14:51:21,459 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,460 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,460 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,461 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:52696, closing server connection
+2023-08-30 14:51:21,853 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,854 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,857 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:21,857 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,857 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,858 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:38960, closing server connection
+2023-08-30 14:51:21,858 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,858 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,859 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,859 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:52708, closing server connection
+2023-08-30 14:51:21,859 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,861 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:21,862 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:21,862 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:21,863 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:53340, closing server connection
+2023-08-30 14:51:22,653 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:22,656 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:22,659 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:22,660 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:22,660 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:22,662 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:38966, closing server connection
+2023-08-30 14:51:22,662 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:22,662 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:22,663 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:53352, closing server connection
+2023-08-30 14:51:22,663 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:22,661 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:22,663 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:22,663 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:22,664 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:52710, closing server connection
+2023-08-30 14:51:22,663 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:24,254 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:24,255 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:24,257 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:24,257 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:24,258 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:24,258 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:52726, closing server connection
+2023-08-30 14:51:24,259 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:24,259 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:24,259 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:24,259 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:38968, closing server connection
+2023-08-30 14:51:24,260 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:24,260 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:24,261 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:24,261 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:53360, closing server connection
+2023-08-30 14:51:24,261 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:27,458 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:27,462 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:27,466 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:27,468 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:27,468 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:27,469 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:52728, closing server connection
+2023-08-30 14:51:27,469 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:27,470 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:27,470 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:53362, closing server connection
+2023-08-30 14:51:27,471 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-2:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 2, addr: localhost/127.0.0.1:27388, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27388, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:27,469 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumServerCallbackHandler@135] - SASL authorization completed, myHost is not authorized to connect
+2023-08-30 14:51:27,472 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-3:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 0, addr: localhost/127.0.0.1:27382, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27382, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:27,472 [myid:] - ERROR [QuorumConnectionThread-[myid=4]-1:o.a.z.s.q.QuorumCnxManager@409] - Exception while connecting, id: 1, addr: localhost/127.0.0.1:27385, closing learner connection
+javax.security.sasl.SaslException: Authentication failed against server addr: localhost/127.0.0.1:27385, qpStatus: ERROR
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.checkAuthStatus(SaslQuorumAuthLearner.java:147)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthLearner.authenticate(SaslQuorumAuthLearner.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.startConnection(QuorumCnxManager.java:509)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:407)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:27,473 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+javax.security.sasl.SaslException: Problem with callback handler
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:331)
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.evaluateResponse(GssKrb5Server.java:163)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:93)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.handleConnection(QuorumCnxManager.java:636)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.receiveConnection(QuorumCnxManager.java:555)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReceiverThread.run(QuorumCnxManager.java:592)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: javax.security.sasl.SaslException: learner/myHost@EXAMPLE.COM is not authorized to connect as learner/myHost@EXAMPLE.COM
+	at jdk.security.jgss/com.sun.security.sasl.gsskerb.GssKrb5Server.doHandshake2(GssKrb5Server.java:323)
+	... 8 common frames omitted
+2023-08-30 14:51:27,475 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.QuorumCnxManager@557] - Exception handling connection, addr: /127.0.0.1:38984, closing server connection
+2023-08-30 14:51:31,810 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33134:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:31,850 [myid:] - ERROR [LearnerHandler-/127.0.0.1:33118:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:31,968 [myid:] - ERROR [Thread-19:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:31,973 [myid:] - ERROR [Thread-20:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:31,974 [myid:] - ERROR [Thread-21:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,008 [myid:] - ERROR [Thread-22:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,021 [myid:] - ERROR [Thread-23:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,094 [myid:] - ERROR [Thread-24:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:32,103 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27394:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,104 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27394:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,104 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27396:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,105 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27396:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,136 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27399:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,137 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27399:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,137 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27401:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,137 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27401:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,144 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27404:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,145 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27404:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,155 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27406:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:32,155 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27406:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:32,248 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,251 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,251 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,255 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-4:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,257 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,526 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27403:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,526 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27403:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,527 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27405:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,528 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27405:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,548 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27403:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,549 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27403:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,549 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27405:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:32,549 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27405:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:32,554 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27403:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,563 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27405:o.a.z.s.q.a.SaslQuorumAuthServer@129] - Failed to authenticate using SASL
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:203)
+	at java.base/java.io.DataInputStream.readLong(DataInputStream.java:422)
+	at org.apache.jute.BinaryInputArchive.readLong(BinaryInputArchive.java:100)
+	at org.apache.zookeeper.server.quorum.auth.QuorumAuth.nextPacketIsAuth(QuorumAuth.java:90)
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:72)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.<init>(LearnerHandler.java:291)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:524)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:499)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:32,563 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27405:o.a.z.s.q.LearnerHandler@294] - Server failed to authenticate quorum learner, addr: /127.0.0.1:45514, closing connection
+javax.security.sasl.SaslException: Failed to authenticate using SASL: null
+	at org.apache.zookeeper.server.quorum.auth.SaslQuorumAuthServer.authenticate(SaslQuorumAuthServer.java:130)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.<init>(LearnerHandler.java:291)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:524)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:499)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:32,564 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27405:o.a.z.s.q.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler@534] - Exception while connecting to quorum learner
+javax.security.sasl.SaslException: Authentication failure: Failed to authenticate using SASL: null
+	at org.apache.zookeeper.server.quorum.LearnerHandler.<init>(LearnerHandler.java:297)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:524)
+	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:499)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:51:32,632 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27403:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:32,946 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:33,268 [myid:] - ERROR [LearnerHandler-/127.0.0.1:57574:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:33,274 [myid:] - ERROR [LearnerHandler-/127.0.0.1:57562:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:33,334 [myid:] - ERROR [Thread-35:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,342 [myid:] - ERROR [Thread-36:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,346 [myid:] - ERROR [Thread-37:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,349 [myid:] - ERROR [Thread-38:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,360 [myid:] - ERROR [Thread-39:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,376 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27412:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,377 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27412:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,382 [myid:] - ERROR [Thread-40:o.a.z.Login$1@134] - [wasabi] Retry Loop 01 is called. MaxDuration : 60000
+2023-08-30 14:51:33,387 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27415:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,388 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27415:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,401 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,409 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27409:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:51:33,409 [myid:] - ERROR [ListenerHandler-localhost/127.0.0.1:27409:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:51:33,415 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,427 [myid:] - ERROR [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,434 [myid:] - ERROR [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,449 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-1:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,450 [myid:] - ERROR [QuorumConnectionThread-[myid=0]-3:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,670 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27414:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:33,671 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27414:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:33,704 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27414:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:51:33,704 [myid:] - ERROR [LeaderConnector-localhost/127.0.0.1:27414:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:51:33,731 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27414:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,750 [myid:] - ERROR [LearnerCnxAcceptorHandler-localhost/127.0.0.1:27414:o.a.z.s.q.a.SaslQuorumAuthServer@91] - [wasabi] Retry Loop 04 is called. MaxRetry : 5
+2023-08-30 14:51:33,964 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:51:34,168 [myid:] - ERROR [LearnerHandler-/127.0.0.1:37316:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:51:34,176 [myid:] - ERROR [LearnerHandler-/127.0.0.1:37300:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)

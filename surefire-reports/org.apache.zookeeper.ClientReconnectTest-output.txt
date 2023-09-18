@@ -1,0 +1,4 @@
+2023-08-30 14:50:43,185 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:50:43,198 [myid:127.0.0.1:1111] - ERROR [main-SendThread(127.0.0.1:1111):o.a.z.ClientCnxnSocketNIO@272] - Unable to open socket to localhost/127.0.0.1:1111
+2023-08-30 14:50:43,302 [myid:localhost:1111] - ERROR [main-SendThread(localhost:1111):o.a.z.ClientCnxnSocketNIO@272] - Unable to open socket to localhost/127.0.0.1:1111
+2023-08-30 14:50:43,404 [myid:localhost:1111] - ERROR [main-SendThread(localhost:1111):o.a.z.ClientCnxnSocketNIO@272] - Unable to open socket to localhost/127.0.0.1:1111

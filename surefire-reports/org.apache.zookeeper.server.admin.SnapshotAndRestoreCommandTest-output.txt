@@ -1,0 +1,14 @@
+2023-08-30 14:55:21,913 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:22,504 [myid:] - ERROR [pool-2-thread-1:o.a.z.s.a.SnapshotAndRestoreCommandTest@204] - KeeperErrorCode = NoNode for /restore_test/n_
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /restore_test/n_
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:117)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:53)
+	at org.apache.zookeeper.ZooKeeper.create(ZooKeeper.java:1347)
+	at org.apache.zookeeper.server.admin.SnapshotAndRestoreCommandTest.createData(SnapshotAndRestoreCommandTest.java:323)
+	at org.apache.zookeeper.server.admin.SnapshotAndRestoreCommandTest.lambda$testClientRequest_restoreInProgress$0(SnapshotAndRestoreCommandTest.java:201)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-30 14:55:22,879 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

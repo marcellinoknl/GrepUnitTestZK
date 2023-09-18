@@ -1,0 +1,79 @@
+2023-08-30 14:55:00,132 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13920:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:00,054 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13923:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:00,139 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13923:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:00,139 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13920:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:00,279 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13917:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:00,290 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13917:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:01,141 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13922:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:01,142 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13922:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:01,182 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13922:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:01,183 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13922:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:01,829 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:01,940 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:02,090 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:02,236 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:02,388 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:02,540 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:02,541 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:02,972 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:03,889 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:03,891 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:03,992 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:04,258 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:05,780 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:05,959 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:06,301 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:08,103 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:08,656 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:09,068 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:10,872 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:11,407 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:11,626 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:13,148 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:13,766 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:13,923 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:16,002 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:16,896 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:17,010 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13918:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:18,193 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13915:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:19,094 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:19,317 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:19,319 [myid:] - ERROR [NIOServerCxnFactory.AcceptThread:/127.0.0.1:13921:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:20,487 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13926:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:20,488 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13926:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:20,504 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13932:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:20,505 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13932:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:20,506 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13929:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:55:20,506 [myid:] - ERROR [ListenerHandler-/127.0.0.1:13929:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:55:20,770 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13931:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:20,771 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13931:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:20,776 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13931:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:55:20,776 [myid:] - ERROR [LeaderConnector-/127.0.0.1:13931:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:55:21,005 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,108 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,214 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,231 [myid:] - ERROR [epollEventLoopGroup-10-5:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:21,326 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,333 [myid:] - ERROR [epollEventLoopGroup-10-6:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:21,439 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,469 [myid:] - ERROR [epollEventLoopGroup-10-7:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:21,555 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:21,567 [myid:] - ERROR [epollEventLoopGroup-10-8:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:22,501 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:55:22,523 [myid:] - ERROR [epollEventLoopGroup-9-4:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:23,522 [myid:] - ERROR [epollEventLoopGroup-10-9:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:23,829 [myid:] - ERROR [epollEventLoopGroup-8-4:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:25,902 [myid:] - ERROR [epollEventLoopGroup-9-5:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:26,403 [myid:] - ERROR [epollEventLoopGroup-10-10:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:27,309 [myid:] - ERROR [epollEventLoopGroup-8-5:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:29,183 [myid:] - ERROR [epollEventLoopGroup-9-6:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:29,525 [myid:] - ERROR [epollEventLoopGroup-10-11:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:30,103 [myid:] - ERROR [epollEventLoopGroup-8-6:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:32,022 [myid:] - ERROR [epollEventLoopGroup-9-7:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:32,229 [myid:] - ERROR [epollEventLoopGroup-10-12:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:33,279 [myid:] - ERROR [epollEventLoopGroup-8-7:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:34,803 [myid:] - ERROR [epollEventLoopGroup-9-8:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:35,836 [myid:] - ERROR [epollEventLoopGroup-10-13:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:36,036 [myid:] - ERROR [epollEventLoopGroup-8-8:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:37,692 [myid:] - ERROR [epollEventLoopGroup-9-9:o.a.z.s.ServerCnxnFactory@326] - Too many connections 2 - max is 2
+2023-08-30 14:55:37,911 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

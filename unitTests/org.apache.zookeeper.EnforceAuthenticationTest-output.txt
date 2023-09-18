@@ -1,0 +1,32 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/asus/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2023-09-03 22:28:06,223 [myid:1] - ERROR [main:o.a.z.s.AuthenticationHelper@84] - Authentication scheme sasl is not available.
+2023-09-03 22:28:06,416 [myid:] - ERROR [Thread-1:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:06,434 [myid:0] - ERROR [Thread-1:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:06,650 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:11,655 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:11,680 [myid:] - ERROR [epollEventLoopGroup-4-3:o.a.z.s.AuthenticationHelper@121] - Client authentication scheme(s) [ip] does not match with any of the expected authentication scheme [digest], closing session.
+2023-09-03 22:28:11,687 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:12,233 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:12,233 [myid:] - ERROR [Thread-3:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:12,236 [myid:0] - ERROR [Thread-3:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:15,235 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:15,854 [myid:1] - ERROR [main:o.a.z.s.AuthenticationHelper@78] - zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+2023-09-03 22:28:15,857 [myid:] - ERROR [Thread-5:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:15,857 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:15,859 [myid:0] - ERROR [Thread-5:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:18,859 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:18,869 [myid:] - ERROR [epollEventLoopGroup-12-2:o.a.z.s.AuthenticationHelper@121] - Client authentication scheme(s) [ip] does not match with any of the expected authentication scheme [digest], closing session.
+2023-09-03 22:28:18,972 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:19,593 [myid:] - ERROR [Thread-7:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:19,593 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:19,594 [myid:0] - ERROR [Thread-7:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:19,933 [myid:] - ERROR [epollEventLoopGroup-4-2:o.a.z.s.AuthenticationHelper@121] - Client authentication scheme(s) [ip] does not match with any of the expected authentication scheme [digest], closing session.
+2023-09-03 22:28:22,594 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:23,223 [myid:] - ERROR [Thread-9:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:23,223 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-09-03 22:28:23,224 [myid:0] - ERROR [Thread-9:o.a.z.s.q.QuorumPeerConfig@702] - Invalid configuration, only one server specified (ignoring)
+2023-09-03 22:28:26,224 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000

@@ -1,0 +1,8 @@
+2023-08-30 14:56:59,135 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21995:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:59,140 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21995:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:59,183 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21998:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:59,183 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21998:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:59,214 [myid:] - ERROR [ListenerHandler-/127.0.0.1:22001:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:59,216 [myid:] - ERROR [ListenerHandler-/127.0.0.1:22001:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:56:59,911 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21995:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:56:59,913 [myid:] - ERROR [ListenerHandler-/127.0.0.1:21995:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3

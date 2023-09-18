@@ -1,0 +1,26 @@
+2023-08-30 14:50:40,654 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:50:40,658 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11224:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:50:40,664 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11227:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:50:40,665 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11227:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:50:40,764 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11230:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1067] - [wasabi] Retry Loop 06 is called. MaxRetry :3
+2023-08-30 14:50:40,765 [myid:] - ERROR [ListenerHandler-/127.0.0.1:11230:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1072] - [wasabi] Retry Loop 07 is called. MaxRetry :3
+2023-08-30 14:50:41,414 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11229:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:50:41,414 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11229:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:50:41,420 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11229:o.a.z.s.q.Learner$LeaderConnector@408] - [wasabi] Retry Loop 05 is called. MaxRetry : 5
+2023-08-30 14:50:41,420 [myid:] - ERROR [LeaderConnector-/127.0.0.1:11229:o.a.z.s.q.Learner$LeaderConnector@409] - [wasabi] Retry Loop 05 is called. MaxDuration : 100
+2023-08-30 14:50:41,905 [myid:] - ERROR [main-SendThread():o.a.z.ClientCnxn$SendThread@1179] - [wasabi] Retry Loop 03 is called. MaxDuration : 10000
+2023-08-30 14:50:57,098 [myid:] - ERROR [main:o.a.z.ClientCnxn@1597] - Timeout error occurred for the packet 'clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,4294967299,0  request:: '/clientHang2,#6f726967696e616c44617461,v{s{31,s{'world,'anyone}}},0  response:: '/clientHang2 '.
+2023-08-30 14:50:57,316 [myid:] - ERROR [LearnerHandler-/127.0.0.1:38670:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
+2023-08-30 14:50:57,327 [myid:] - ERROR [LearnerHandler-/127.0.0.1:38656:o.a.z.s.q.LearnerHandler@720] - Unexpected exception in LearnerHandler: 
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:657)
